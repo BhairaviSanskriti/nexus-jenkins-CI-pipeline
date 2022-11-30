@@ -42,7 +42,7 @@ pipeline{
             }
             post {
               success {
-                    sh "Version updated"
+                    sh "echo Version updated"
                 }
 
             }
@@ -56,7 +56,7 @@ pipeline{
             }
             post {
               success {
-                    sh "Changes committed"
+                    sh "echo Changes committed"
                 }
 
             }
